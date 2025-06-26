@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modelo", "Modelo", "{519F2C25-2F7E-45FA-BEF4-608750B2D1FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vistas", "Vistas", "{8A7F60B5-026C-45FE-9696-0E081F9A0BE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelo", "Modelo\Modelo.csproj", "{77A43590-1C54-4A68-92BB-7507CD2022F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vistas", "Vistas\Vistas.csproj", "{5EF3908E-9945-406E-9CE3-66128B3494BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77A43590-1C54-4A68-92BB-7507CD2022F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A43590-1C54-4A68-92BB-7507CD2022F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A43590-1C54-4A68-92BB-7507CD2022F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A43590-1C54-4A68-92BB-7507CD2022F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EF3908E-9945-406E-9CE3-66128B3494BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF3908E-9945-406E-9CE3-66128B3494BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF3908E-9945-406E-9CE3-66128B3494BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF3908E-9945-406E-9CE3-66128B3494BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77A43590-1C54-4A68-92BB-7507CD2022F1} = {519F2C25-2F7E-45FA-BEF4-608750B2D1FC}
+		{5EF3908E-9945-406E-9CE3-66128B3494BD} = {8A7F60B5-026C-45FE-9696-0E081F9A0BE6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB6EDA8C-FFDD-4F8B-98CF-A695B45DAD5A}
+	EndGlobalSection
+EndGlobal
