@@ -27,5 +27,36 @@ namespace Vistas.Formularios
         {
             MostrarDoctores();
         }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            //Aqui vamos a crear el objeto y vamos a capturar la info 
+            //Por medio de los textbox
+
+            Doctor doc = new Doctor();
+
+            doc.Nombre=txtName.Text;
+            doc.Apellido=txtApellido.Text;
+            doc.Especialidad1=txtEspecialidad.Text;
+            doc.Cargo=txtCargo.Text;
+            doc.InsertarDoctores();
+
+            LimpiarCampo();
+
+            MostrarDoctores();
+            
+
+        }
+
+        private void LimpiarCampo()
+        {
+            MessageBox.Show("Registro exitoso");
+
+            txtName.Clear();
+            txtApellido.Clear();
+            txtCargo.Clear();
+            txtEspecialidad.Clear();
+        }
+
     }
 }

@@ -30,7 +30,7 @@ namespace Modelo.Entidades
             SqlConnection conexion = ConexionDB.Conectar();
             //Vamos a crear el query o la consulta
 
-            string consultaQuery = "select nombre, apellido, especialidad from doctores;";
+            string consultaQuery = "select nombre, apellido, especialidad, cargp from doctores;";
             //Necesitamos un adaptador
             SqlDataAdapter add = new SqlDataAdapter(consultaQuery, conexion);
             DataTable dataVirtual = new DataTable();
@@ -38,6 +38,43 @@ namespace Modelo.Entidades
             add.Fill(dataVirtual);
             return dataVirtual;
         }
-        
+
+        #region
+        public bool InsertarDoctores()
+        {
+            SqlConnection conexion=ConexionDB.Conectar();
+
+            // Crearemos la query o consulta
+
+            string ConsultaQueuryInsertar = "insert into doctores (nombre, apellido, especialidad, cargp) values (@nombre,@apellido, @especialidad, @cargp)";
+            SqlCommand insertar = new SqlCommand(ConsultaQueuryInsertar,conexion);
+
+            insertar.Parameters.AddWithValue("@nombre", nombre);
+            insertar.Parameters.AddWithValue("@apellido",apellido);
+            insertar.Parameters.AddWithValue("@especialidad",Especialidad);
+            insertar.Parameters.AddWithValue("@cargp",cargo);
+
+            //Ahora insertamos los valor que reciben desde el form por medio de un objeto
+            //y el set nos ayuda a darle esos valores
+
+            //Hay q validar si almenos una fila se afecto
+
+            if (insertar.ExecuteNonQuery() > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
+
+
+
+
+            
+        }
+        #endregion
+
     }
 }

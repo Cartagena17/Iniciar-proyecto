@@ -46,4 +46,4 @@ values
 ('Carlos','Molina','Neurologia','Neurologo');
 
 select nombre,especialidad from doctores
-select nombre, apellido, especialidad, cargo from doctores;
+select nombre, apellido, especialidad,cargp from doctores;

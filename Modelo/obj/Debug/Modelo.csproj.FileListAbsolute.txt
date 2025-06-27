@@ -4,3 +4,9 @@ C:\Users\Estudiante\Desktop\Sistema administrativo\Modelo\obj\Debug\Modelo.cspro
 C:\Users\Estudiante\Desktop\Sistema administrativo\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
 C:\Users\Estudiante\Desktop\Sistema administrativo\Modelo\obj\Debug\Modelo.dll
 C:\Users\Estudiante\Desktop\Sistema administrativo\Modelo\obj\Debug\Modelo.pdb
+C:\Users\Estudiante\Desktop\Iniciar-proyecto\Modelo\bin\Debug\Modelo.dll
+C:\Users\Estudiante\Desktop\Iniciar-proyecto\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Estudiante\Desktop\Iniciar-proyecto\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\Estudiante\Desktop\Iniciar-proyecto\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\Estudiante\Desktop\Iniciar-proyecto\Modelo\obj\Debug\Modelo.dll
+C:\Users\Estudiante\Desktop\Iniciar-proyecto\Modelo\obj\Debug\Modelo.pdb
